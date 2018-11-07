@@ -1,0 +1,30 @@
+#container {
+  box-sizing: content-box;
+  width: 600px;
+  height: 500px;
+  border: 2px solid black;
+  position: relative;
+  margin-top: 100px;
+}
+
+#platform {
+  position: absolute;
+  box-sizing: border-box;
+  top: 490px;
+  height: 0px;
+  border: 2px solid black;
+}
+
+.missile {
+  box-sizing: border-box;
+  position: absolute;
+  border: 1px solid red;
+  width: 0px;
+}
+
+.enemy {
+  position: absolute;
+  box-sizing: border-box;
+  background: violet;
+  margin: 5px;
+}
